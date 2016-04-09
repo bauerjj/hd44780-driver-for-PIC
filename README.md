@@ -10,11 +10,19 @@ Typical usage:
 #include <xc.h>
 #include <stdio.h>
 
+void main(){
+	// Setup OSSCON and pins here
+	// ....
+	
+	
 	initLCD();
-    gotoLCD(FIRST_LINE);
-    printf("  Hello World");
-    gotoLCD(SECOND_LINE);
-    printf("** mcuhq.com **");
+	gotoLCD(FIRST_LINE);
+	printf("  Hello World");
+	gotoLCD(SECOND_LINE);
+	printf("** mcuhq.com **");
 	// Optional non-printf
 	// lcdPrint("  Hello World")
+	while(1); // do nothing
+}
+```
 	
