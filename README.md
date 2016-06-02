@@ -1,7 +1,7 @@
-# hd47780-driver-for-PIC
-A Hitachi HD47780 driver for 4-bit/8-bit operation using any PIC microcontroller
+# hd44780-driver-for-PIC
+A Hitachi HD44780 driver for 4-bit/8-bit operation using any PIC microcontroller
 
-For tutorial about setup: http://mcuhq.com/22/hd47780-lcd-driver-for-a-pic
+For tutorial about setup: http://mcuhq.com/22/hd44780-lcd-driver-for-a-pic
 
 Typical usage:
 
